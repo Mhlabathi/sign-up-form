@@ -102,6 +102,7 @@ form {
     height: 40vh;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0px 0px 3px 3px rgb(88, 141, 221);;
@@ -117,6 +118,7 @@ form {
 
 .form-label-input label {
     width: 150px;
+    color: #004;
 }
 
 .form-label-input input {
@@ -127,7 +129,7 @@ form {
 .form-label-input button {
     padding: 5px;
     background-color: #cce;
-    color: rgb(88, 141, 221);
+    color: rgb(62, 111, 185);
     border: 4px solid rgb(88, 141, 221);
     border-radius: 8px;
     box-shadow: 0 0 4px rgb(62, 111, 185);
@@ -135,8 +137,23 @@ form {
     font-size: medium;
 }
 
+.form-label-input-acc p {
+    margin-top: -20px;
+    color: #004;
+    font-size: medium;
+
+}
+
 .form-label-input button:hover {
     cursor: pointer ;
+    list-style: none;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+p  a {
+    text-decoration-line: none;
+    font-weight: bold;
 }
 
 /**Form Validation*/
